@@ -34,9 +34,9 @@ export function ChatInput({ onSend, disabled }: ChatInputProps) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-end w-full gap-2 p-4 border-t animate-fade-in"
+      className="flex items-center justify-center w-full gap-2 p-4 border-t animate-fade-in"
     >
-      <div className="relative flex-1">
+      <div className="relative flex-1 flex items-center justify-center">
         <textarea
           ref={textareaRef}
           value={input}
