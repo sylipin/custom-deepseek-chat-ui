@@ -13,7 +13,7 @@ export function ChatContainer() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: '你好！我是 DeepSeek AI 助手，有什么我可以帮助你的吗？'
+      content: '你好！我是 DeepSeek AI 助手，请问有什么我可以帮助你的吗？'
     }
   ]);
   const [isLoading, setIsLoading] = useState(false);
